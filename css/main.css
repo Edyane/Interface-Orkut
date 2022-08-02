@@ -11,3 +11,17 @@
     margin-top: 5%;
     border: 1px solid blue;
 }
+
+.fields {
+    margin: 5% 10%;
+}
+
+.pink-font {
+    color: #e8258e;
+}
+
+#fields__title {
+    font-size: 18px;
+    font-weight: 800;
+
+}
