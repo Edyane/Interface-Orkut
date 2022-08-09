@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/responsive-login.css">
     <title>Orkut</title>
     
 </head>
 <body>
+
+    <div class="logo">
+        <img src="imgs/orkut-logo.png" alt="" srcset="">
+    </div>
+
     <div class="container">
         <div class="fields">
+    
             <div class="fields__title">
-                <p id="field__title">Acesse o <span class="pink-font">Orkut</span> com a sua conta Google</p>
+                <p id="field__title">Acesse o 
+                    <span class="pink-font">orkut</span> 
+                    com a sua conta 
+                    <span style="color: rgba(18, 18, 242, 0.589);">G</span><span style="color: rgb(247, 0, 255);">o</span><span style="color: rgb(255, 170, 0);">o</span><span style="color: rgb(4, 4, 126);">g</span><span style="color: rgb(89, 89, 96);">l</span><span style="color: rgb(255, 0, 30);">e</span>!
+                </p>
             </div>
-
-            <span style="color: blue">G</span>
-            <span style="color: blue">o</span>
-            <span style="color: blue">o</span>
-            <span style="color: blue">g</span>
-            <span style="color: blue">l</span>
-            <span style="color: blue">e</span>
-
-            <div class="fields__textbox">
+            
+            <div class="fields__textboxs">
                 <input type="email" placeholder="E-mail ou número de celular" name="" id="field__email">
                 <input type="password" placeholder="Senha" name="" id="field__pass">
             </div>
 
             <div class="fields__remember">
-                <input type="checkbox" name="" id="field__remember">
-                <label for="field__remember">Lembrar sempre do meu aceeso</label>
+                <input type="checkbox" name="" class="check-pink" id="field__remember">
+                <label for="field__remember">Lembrar sempre do meu acesso</label>
             </div>
 
             <div class="fields__buttons">
-                <button id="btn_login"></button>
+                <button id="btnlogin">ENTRAR</button>
             </div>
 
             <div class="fields__recovery">
@@ -42,11 +46,10 @@
             </div>
 
             <div class="fields__create">
-                <a href="#">Não tem conta? Criar agora</a>
+                <a href="#">Não tem conta ? <span class="pink-font">Criar Agora</span></a>
             </div>
-        </div>
 
-    </div>
-    
+        </div>
+    </div>    
 </body>
 </html>
